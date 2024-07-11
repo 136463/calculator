@@ -1,0 +1,86 @@
+.container{
+    position: relative;
+    left: 35%;
+    top: 60px;
+    background-color: rgb(107, 100, 100);
+    height: 500px;
+    width: 300px;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+}
+.upper_child_container{
+    background-color: rgb(83, 76, 76);
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 35px;
+    border-radius: 10px;
+    display: block;
+}
+.lower_child_container{
+    background-color: transparent;
+    width: 300px;
+    padding: 3px;
+    height: 370px;
+    position: absolute;
+    bottom: 5px;
+    display: block;
+}
+.sub_sub_child{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: #FF3131;
+}
+.other{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 200px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid #FF3131;
+    color: #FF3131;
+}
+.one{
+    background-color: orange;
+    width: 71px;
+    height: 72px;
+    border-radius: 40px;
+    border: none;
+}
+.one:hover {
+    width: 70px;
+    height: 70px;
+}
+.in_put{
+    background-color: transparent;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 90px;
+    border-radius: 10px;
+    font-size: 45px;
+    text-align: right;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.in_put:hover {
+    border: none;
+}
+.sub_child{
+    background-color: transparent;
+    height: 20px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    padding: 1px;
+}

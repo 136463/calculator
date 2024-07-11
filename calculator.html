@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sub_child">
+            <button class="other" id="other">Other functions</button>
+            <div class="sub_sub_child" id="mine"></div>
+        </div>
+        <div class="upper_child_container">
+            <input type="text" class="in_put" id="result" readonly>
+        </div>
+        <div class="lower_child_container" id="lower_child_container">
+            <button onclick="addValue(value)" class="one" id="on">p</button>
+            <button onclick="deleteInput()" class="one" id="one">D</button>
+            <button onclick="clearInput()" class="one" id="one">C</button>
+            <button onclick="addValue('/')" class="one" id="one">/</button>
+            <button onclick="addValue('7')" class="one" id="one">7</button>
+            <button onclick="addValue('8')" class="one" id="one">8</button>
+            <button onclick="addValue('9')" class="one" id="one">9</button>
+            <button onclick="addValue('*')" class="one" id="one">x</button>
+            <button onclick="addValue('4')" class="one" id="one">4</button>
+            <button onclick="addValue('5')" class="one" id="one">5</button>
+            <button onclick="addValue('6')" class="one" id="one">6</button>
+            <button onclick="addValue('-')" class="one" id="one">-</button>
+            <button onclick="addValue('1')" class="one" id="one">1</button>
+            <button onclick="addValue('2')" class="one" id="one">2</button>
+            <button onclick="addValue('3')" class="one" id="one">3</button>
+            <button onclick="addValue('+')" class="one" id="one">+</button>
+            <button onclick="absolute()" class="one" id="one">A</button>
+            <button onclick="addValue('0')" class="one" id="one">0</button>
+            <button onclick="addValue('.')" class="one" id="one">.</button>
+            <button onclick="calculate()" class="one" id="one">=</button>
+        </div>
+    </div>
+    <script src="calculator.js">
+
+    </script>
+</body>
+</html>
